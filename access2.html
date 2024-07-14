@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+        .jersey{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .jer{
+            width: 20%;
+           
+            height: 700px;
+            padding-top: 100px;
+            margin-bottom: auto;
+            display: block;
+        }
+        h1{
+            text-align: center;
+            font-size: 20px;
+        }
+        .jer1{
+            width: 75%;
+            
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .jer2{
+            background-color: #ddd;
+            border-radius: 25px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        .poster{
+            width: 25%;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            padding-bottom: 25px;
+
+        }
+        img{
+            height: 350px;
+            border: 2px solid gray;
+        }
+        p{
+            display: block;
+            padding-right: 5px;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input{
+            text-align: center;
+           
+            margin: auto;
+            width: 50px;
+            padding: 10px;
+        }
+        #inp{
+            display: flex;
+            width: 75%;
+            margin: auto;
+            padding-bottom: 20px;
+        }
+        #cate{
+           position: relative;
+        }
+        #cate input label{
+            width: 100%;
+            padding: 10px;
+        }
+        #cate input{
+            height: 20px;
+            background-color: rosybrown;
+        }
+        #cate label{
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+       #cate input:checked~.check{
+        background-color: wheat;
+       }
+
+       @media screen and (max-width:500px) {
+            .jersey {
+                width: 100%;
+                margin: auto;
+              
+            }
+            .poster {
+                width: 100%;
+                margin: auto;
+                display: block;
+            }
+            .poster p{
+                font-size: 20px;
+            }
+            input{
+                width: 15px;
+
+            }
+            #cate{
+                display: block;
+                width: 100%;
+                margin: auto;
+            }
+            #cate label{
+                font-size: 15px;
+            }
+            .page a{
+                width: 100%;
+                font-size: 20px;
+                display: block;
+                margin: auto;
+                padding: 25px;
+            }
+        }
+    </style>
+
+    <body>
+        <div class="jersey">
+         <div class="jer">
+            <div>
+                <h1 style="float: lef;;">Price</h1>
+            </div>
+            
+            <div>
+                <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">Enter Price Range</h1>
+            </div>
+            <div id="inp">
+                <input style="padding-right: 10px;" type="text" placeholder="Max">
+                <input type="text" name="" id="" placeholder="Min">
+
+            </div><hr style="width: 80%;">
+
+            <div id="cate">
+                <div>
+                    <h1 style="float: left; width: 100%;">Category</h1>
+                </div>
+                <div style="padding: 10px;">
+                    <input  type="checkbox">
+                    <label for="">Waterbottel</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Mug</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Tote Bags</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Notebooks</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Umbrella</label>
+                </div>
+               
+               
+            </div><hr style="width: 80%;">
+
+            <div id="cate">
+                <div>
+                    <h1 style="float: left; width: 100%;">Sports Team</h1>
+                </div>
+                <div style="padding: 10px;">
+                    <input  type="checkbox">
+                    <label for="">India</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">ICC T20 World Cup</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Australia</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">New zealand</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">West indies</label>
+                </div>
+               
+               
+            </div><hr style="width: 80%;">
+
+            <div id="cate">
+                <div>
+                    <h1 style="float: left; width: 100%;">Primary Colour</h1>
+                </div>
+                <div style="padding: 10px;">
+                    <input  type="checkbox">
+                    <label for="">White</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Blue</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Navy Blue</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Black</label>
+                </div>
+                <div style="padding: 10px;">
+                    <input type="checkbox">
+                    <label for="">Pink</label>
+                </div>
+               
+               
+            </div><hr style="width: 80%;">
+           
+            
+         </div>
+         <div class="jer1">
+            <div class="jer2">
+                <h1 style="padding-left: 30px; margin-right: auto;">Accessories</h1>
+                <p style="margin-left: auto; font-size: 15px; padding-right: 25px;">Page 2</p>
+            </div>
+           
+            <div class="poster">
+                <img src="images/ap1.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Refrigerator Stage Stainless Steal...</p>
+                <div style="display: flex;">
+                   
+                        <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹699</p>                 
+                        <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹1,999</p>                  
+                        <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px;  ">65%Off</p>
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap2.webp" style="width: 100%;" alt="">
+                <p style="display: block;">ICC India Champions Stainless...</p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹1,299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">54%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap3.webp" style="width: 100%;" alt="">
+                <p style="display: block;">White Printed Ceramic Mug</p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">50%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap4.webp" style="width: 100%;" alt="">
+                <p style="display: block;">White and Pink Printed Ceramic...</p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">50%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap5.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Blue and White Printed Ceramic...</p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹399</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹799</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">50%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap6.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Stainless Steel Water Bottel </p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹1,299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">54%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap7.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Black Printed Creamic Mug </p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹399</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹799</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">50%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap9.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Team New zealand white and .... </p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">50%Off</p>
+
+                </div>
+               
+            </div>
+            <div class="poster">
+                <img src="images/ap8.webp" style="width: 100%;" alt="">
+                <p style="display: block;">World Cup Printed Stainless Steal... </p>
+                <div style="display: flex;">
+                    
+                    <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-right: 20px; font-size: 20px; margin-top: auto;">₹599</p>
+                    <p style="font-size: 20px; margin-top: auto; color: #ddd; padding-right: 30px; text-decoration:line-through;">₹1,299</p>
+                    <p style="font-size: 20px; margin-top: auto; color: green; padding-right: 20px; ">54%Off</p>
+
+                </div>
+               
+            </div>
+            
+         </div>
+        </div>
+        <style>
+            a{
+                text-decoration: none;
+            }
+        </style>
+        <div style="display: flex; width: 30%; margin: auto;">
+            <div style="display: flex; width: 20%;   ">
+               <a style="margin: auto; background-color: #ddd; padding: 20px;" href="accesories.html" target="iframe_a"> <h1 style="display: block; margin: auto;">1</h1> </a> 
+            </div>
+            <div style="display: flex; width: 20%;">
+                <a  style="margin: auto;  background-color: #ddd; padding: 20px;" href="access2.html" target="iframe_a"> <h1 style="display: block; margin: auto;">2</h1> </a> 
+            </div>
+            <div style="display: flex; width: 20%;">
+                <a  style="margin: auto;  background-color: #ddd; padding: 20px;" href="" target="iframe_a"> <h1 style="display: block; margin: auto;">3</h1> </a> 
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ICC Men's Cricket Ranking Overview</title>
+       <link rel="icon" href="images/icclogoblue.png" type="images/icons">
+
+    </head>
+
+
+<style>
+    table{
+        width: 90%;
+        margin: auto;
+        
+        
+    }
+    table th {
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+        background-color: rgb(221, 11, 190);
+    }
+    table tr td{
+        text-align: center;
+        font-size: 15px;
+    }
+    .group{
+        padding-bottom: 20px;
+        margin: auto;
+    }
+    .group ul li{
+    float: left;
+    padding: 10px;
+    margin: auto;
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+
+    display: flex;
+}
+.group ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.group li a {
+    text-decoration: none;
+    margin: auto;
+   
+    
+    color: black;
+}
+.tea{
+    padding-top: 15px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+}
+.tea1{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.tea2{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.tea3{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+#aus{
+    color: black;
+}
+#table th{
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+   
+}
+#table tr td{
+    color: black;
+}
+h1{
+        font-size: 50px;
+        margin: auto;
+        padding-left: 50px; 
+        padding-top: 30px;
+        padding-bottom: 20px;
+    color: rgb(2, 2, 72);
+    }
+
+    @media screen and (max-width: 500px) {
+    
+        .logo {
+            width: 10%;
+         }
+         .logo img{
+            width: 50px;
+         }
+        
+         .top ul li a {
+
+            font-size: 15px;
+
+         }
+         .text h1{
+            font-size: 15px;
+         }
+
+         #hea {
+            font-size: 25px;
+         }
+         .head{
+            width: 100%;
+            display: block;
+            margin: auto;
+         }
+         .head1{
+            width: 5px;
+            visibility: hidden;
+         }
+         .spon{
+            width: 100%;
+            margin: auto;
+         }
+         .spon p{
+            font-size: 10px;
+            margin-right: 40%;
+         }
+         .spons{
+            width: 100%;
+            margin: auto;
+         }
+         .cola {
+            width: 100%;
+            margin: auto;
+         }
+         .royal {
+            width: 100%;
+            margin: auto;
+         }
+         .social {
+            width: 100%;
+            margin: auto;
+         }
+         .icc {
+            width: 100%;
+            margin: auto;
+         }
+
+    body .tea{
+        width: 100%;
+       
+        display: block;
+       
+       
+    }
+    .tea1 {
+        padding-bottom: 10px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .tea2 {
+        padding-bottom: 10px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .tea3 {
+        padding-bottom: 10px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .group{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .group ul {
+       
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .group ul li a{
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:400px) {
+    .top ul li a {
+
+font-size: 12px;
+
+}
+.head{
+    padding-top: 17px;
+            width: 100%;
+            display: block;
+            margin: auto;
+         }
+    
+}
+</style>
+<body>
+    <div class="top">
+        <div class="logo">
+            <a href="index.html"><img src="images/icc-white-logo.svg"></a>
+        </div>
+        <div class="head">
+            <ul>
+                <li style="font-size: 20px;"><a href="#"> Matches </a></li>
+                <li style="font-size: 20px;"><a href="#"> Shop </a></li>
+                <li style="font-size: 20px;"> <a href="table.html"> Ranking </a></li>
+                <li style="font-size: 20px;"><a href="#"> News </a></li>
+                <li style="font-size: 20px;"><a href="team.html"> Teams </a></li>
+                <li style="font-size: 20px;"><a href="awards.html"> Awards </a></li>
+                <li style="font-size: 20px;"><a href="trophy.html"> Trophys </a></li>
+            </ul>
+        </div>
+        <div class="head1">
+            <ul>
+                <li> <img src="images/search-interface-symbol.png"> <a href="#">     Search</a>        </li>
+                <li> <img src="images/user.png"> <a href="signin.html">     Sign in</a>        </li>
+                
+            </ul>
+
+        </div>
+        
+    </div>
+
+    <div>
+        <h1>MEN'S TEAM RANKING</h1>
+    </div>
+    <div class="tea">
+        <div class="tea1">
+                                                     <!-- Test Team Ranking -->
+            <table id="table">
+                <tr style="border-bottom: 2px solid black;">
+                    <th style="margin: auto; text-align: center; width: 20%; color: rgb(69, 64, 64);">Test </th>
+                    <th style="margin: auto; text-align: center; width: 60%;">Team Ranking </th>
+
+                </tr>
+                    
+                   
+
+               
+                <tr id="aus" style="background-color: #ddd;" >
+                    <td style="font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; border-right: 1px solid black;">01 </td>
+                    <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: left; font-size: 30px; padding: 15px;" > <img style="height: 30px; width: 40px;padding-right: 5px;" src="images/aus flag.jpg">AUSTRALIA</td>
+                   <td style="font-size: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">124</td>
+                   
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">02 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/india flag.jpg">INDIA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">120</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">03 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/england flag.jpg">ENGLAND</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">105</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">04 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/sa flag.jpg">SOUTH AFRICA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">103</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">05 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/nz flag.jpg">NEW ZEALAND</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">96</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="tea2">                           <!-- odi Team Ranking -->
+            <table id="table">
+                <tr style="border-bottom: 2px solid black;">
+                    <th style="margin: auto; text-align: center; width: 20%; color: rgb(69, 64, 64);">ODI </th>
+                    <th style="margin: auto; text-align: center; width: 60%;">Team Ranking </th>
+
+                </tr>
+                    
+                   
+
+               
+                <tr id="aus" style="background-color: #ddd;" >
+                    <td style="font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; border-right: 1px solid black;">01 </td>
+                    <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: left; font-size: 30px; padding: 15px;" > <img style="height: 30px; width: 40px;padding-right: 5px;" src="images/india flag.jpg">INDIA</td>
+                   <td style="font-size: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">122</td>
+                   
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">02 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/aus flag.jpg">AUSTRALIA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">116</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">03 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/sa flag.jpg">SOUTH AFRICA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">112</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">04 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/paksitan flag.jpg">PAKISTAN</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">106</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">05 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/nz flag.jpg">NEW ZEALAND</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">101</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="tea3">                        <!-- t20 Team Ranking -->
+            <table id="table">
+                <tr style="border-bottom: 5px solid gold;">
+                    <th style="margin: auto; text-align: center; width: 20%; color: rgb(69, 64, 64);">T20 </th>
+                    <th style="margin: auto; text-align: center; width: 60%;">Team Ranking </th>
+
+                </tr>
+                    
+                   
+
+               
+                <tr id="aus" style="background-color: #ddd;" >
+                    <td style="font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; border-right: 1px solid black;">01 </td>
+                    <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: left; font-size: 30px; padding: 15px;" > <img style="height: 30px; width: 40px;padding-right: 5px;" src="images/india flag.jpg">INDIA</td>
+                   <td style="font-size: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">266</td>
+                   
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">02 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/aus flag.jpg">AUSTRALIA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">256</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">03 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/england flag.jpg">ENGLAND</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">254</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">04 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" > <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/wi flag.jpg">WEST INDIES</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">252</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif; ">05 </td>
+                    <td style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: left; font-size: 20px; padding: 15px;" >  <img style="height: 20px; width: 30px;padding-right: 5px;" src="images/sa flag.jpg">SOUTH AFRICA</td>
+                   <td style="font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">251</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div>
+        <h1>MEN'S PLAYER RANKING</h1>
+    </div>
+
+    <div class="group">
+        <ul>
+            <li style="background-color: #ddd;"><a href="">ODI -- </a></li>
+            <li style="background-color: #ddd;"><a href="odibat.html" target="iframe_a">  Batting </a></li>
+            <li style="background-color: #ddd;"><a href="odibowl.html" target="iframe_a">  Bowling </a></li>
+            <li style="background-color: #ddd;"><a href="odiallrounder.html" target="iframe_a">  Allrounder </a></li>
+            <li ><a href="">T20 -- </a></li>
+            <li><a href="t20bat.html" target="iframe_a">  Batting</a></li>
+            <li ><a href="t20bowl.html" target="iframe_a">Bowling </a></li>
+            <li ><a href="t20allrounder.html" target="iframe_a">Allrounder </a></li>
+            <li style="background-color: #ddd;" ><a href="">Test -- </a></li>
+            <li style="background-color: #ddd;"><a href="testbat.html" target="iframe_a">  Batting </a></li>
+            <li style="background-color: #ddd;"><a href="testbowl.html" target="iframe_a">Bowling </a></li>
+            <li style="background-color: #ddd;"><a href="testallrounder.html" target="iframe_a">Allrounder </a></li>
+           
+           
+        </ul>
+    </div>
+
+    <div>
+        <iframe  name="iframe_a"    width="100%" height="1000px" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+
+    </div>
+   
+   
+
+</body>
+</html>

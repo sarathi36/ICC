@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ICC Cricket Awards | ICC</title>
+       <link rel="icon" href="images/icclogoblue.png" type="images/icons">
+
+    </head>
+    <style>
+       
+        .awa{
+            max-width: 100%;
+            background-color: black;
+            height: 1000px;
+            padding-top: 50px;
+            margin: auto;
+        }
+        .award{
+            
+            width: 50%;
+            margin: auto;
+            background-color: black;
+            height: 800px;
+        }
+       
+        .awa1{
+            width: 100%;
+            background-color: black;
+           
+           
+            padding-top: 50px;
+           
+        }
+        .awa1 .title{
+            height: 150px;
+        }
+        .awardz{
+            width: 100%;
+            display: flex;
+           
+            background-color: black;
+            height: 800px;
+        }
+        .award4{
+            width: 23%;
+            max-width: 400px;
+            height: 600px;
+            background-image: url(images/ashwin.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+
+        .award4 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        .award5{
+            width: 23%;
+            height: 600px;
+            background-image: url(images/head.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+
+        .award5 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        .award6{
+            width: 23%;
+            height: 600px;
+            background-image: url(images/usman.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+
+        .award6 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        .award7{
+            width: 23%;
+            height: 600px;
+            background-image: url(images/root.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+
+        .award7 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        
+        .award1{
+            width: 55%;
+            height: 600px;
+            background-image: url(images/usman.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+
+        .award1 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        
+        h1{
+            font-size: 30px;
+            padding: 15px;
+           
+            padding-top: 35px;
+           
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: black;
+            padding-left: 25%;
+        }
+        strong{
+            font-size: 30px;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            width: 80%;
+            background-color: black;
+            padding-right: 25%;
+        }
+        .score{
+            top: 50%;
+            height: 300px;
+        }
+        
+        table{
+            padding-top: 330px;
+            width: 80%;
+           margin: auto;
+        }
+        table td{
+            padding: 5px;
+            text-align: center;
+            width: 100px;
+        }
+        .awab{
+            background-color: rgb(3, 3, 58);
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        .awab1{
+            background-color: rgb(3, 3, 58);
+            width: 50%;
+            display: flex;
+          
+            margin: auto;
+        }
+        .awab h1{
+            background-color: rgb(3, 3, 58);
+            padding: 50px;
+            width: 50%;
+            font-size: 30px;
+        }
+        .awab img{
+            background-color: rgb(3, 3, 58);
+            height: 100px;
+            margin-left: 80%;
+            border-radius: 20px;
+            width: 100px;
+        }
+        .award2{
+            width: 55%;
+            height: 600px;
+            background-image: url(images/vi.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+        
+        .award2 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+        .award3{
+            width: 50%;
+            height: 600px;
+            background-image: url(images/sk.jpg);
+            background-size: cover;
+           border-radius: 25px;
+           box-shadow: 20px 20px 20px black inset;
+           border: 5px  solid gold;
+          
+            margin: auto;
+        }
+        .title h1{
+            font-size: 40px;
+        }
+        .award3 img{
+            height: 45px;
+            width: 70px;
+            padding-left: 40%;
+        }
+
+        @media screen and (max-width:500px) {
+            .awab1 h1{
+                font-size: 25px;
+            }
+            .awa{
+                height: 700px;
+            }
+            .awa1{
+                height: auto;
+            }
+           .awab1{
+            margin-left: auto;
+           }
+            .awab1 img{
+                width: 50px;
+                height: 50px;
+            }
+            .title h1{
+                font-size: 20px;
+            }
+            .awa1 h1{
+                font-size: 20px;
+            }
+            .award{
+                height: 300px;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+            .award2{
+                height: auto;
+            }
+            .award2 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award1{
+                height: auto;
+            }
+            .award1 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award3{
+                height: auto;
+            }
+            .award3 img{
+                width: 30px;
+                height: 20px;
+            }
+            .awardz{
+               
+                height: auto;
+                width: 100%;
+                flex: 50%;
+                flex-wrap: wrap;
+                display: flex;
+                margin: auto;
+            }
+            .award4{
+                width: 50%;
+               display: block;
+             
+                margin: auto;
+                height: auto;
+            }
+            .award4 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award4 h1{
+                font-size: 15px;
+            }
+            .award5{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award5 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award5 h1{
+                font-size: 15px;
+            }
+            .award6{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award6 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award6 h1{
+                font-size: 15px;
+            }
+            .award7{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award7 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award7 h1{
+                font-size: 15px;
+            }
+            strong{
+                font-size: 20px;
+            }
+            .score table{
+                
+                padding-top: 180px;
+                margin: auto;
+            }
+            .score1 table{
+                
+                padding-top: 180px;
+                margin: auto;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            .awab1 h1{
+                font-size: 25px;
+            }
+            .awa{
+                height: 700px;
+            }
+            .awa1{
+                height: auto;
+            }
+           .awab1{
+            margin-left: auto;
+           }
+            .awab1 img{
+                width: 50px;
+                height: 50px;
+            }
+            .title h1{
+                font-size: 15px;
+            }
+            .awa1 h1{
+                font-size: 15px;
+            }
+            .award{
+                height: 200px;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+            .award2{
+                height: auto;
+                margin: auto;
+            }
+            .award2 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award1{
+                height: auto;
+                margin: auto;
+            }
+            .award1 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award3{
+                height: auto;
+            }
+            .award3 img{
+                width: 30px;
+                height: 20px;
+            }
+            .awardz{
+               
+                height: auto;
+                width: 100%;
+                flex: 50%;
+                flex-wrap: wrap;
+                display: flex;
+                margin: auto;
+            }
+            .award4{
+                width: 50%;
+               display: block;
+             
+                margin: auto;
+                height: auto;
+            }
+            .award4 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award4 h1{
+                font-size: 15px;
+            }
+            .award5{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award5 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award5 h1{
+                font-size: 15px;
+            }
+            .award6{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award6 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award6 h1{
+                font-size: 15px;
+            }
+            .award7{
+                width: 50%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+            .award7 img{
+                width: 30px;
+                height: 20px;
+            }
+            .award7 h1{
+                font-size: 15px;
+            }
+            strong{
+                font-size: 20px;
+            }
+            .score table{
+                
+                padding-top: 150px;
+                margin: auto;
+            }
+            .score1 table{
+                
+                padding-top: 150px;
+                margin: auto;
+            }
+        }
+
+
+    </style>
+    <body>
+
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="images/icc-white-logo.svg"></a>
+            </div>
+            <div class="head">
+                <ul>
+                    <li style="font-size: 20px;"><a href="#"> Matches </a></li>
+                    <li style="font-size: 20px;"><a href="#"> Shop </a></li>
+                    <li style="font-size: 20px;"> <a href="table.html"> Ranking </a></li>
+                    <li style="font-size: 20px;"><a href="#"> News </a></li>
+                    <li style="font-size: 20px;"><a href="team.html"> Teams </a></li>
+                    <li style="font-size: 20px;"><a href="awards.html"> Awards </a></li>
+                    <li style="font-size: 20px;"><a href="trophy.html"> Trophys </a></li>
+                </ul>
+            </div>
+            <div class="head1">
+                <ul>
+                    <li> <img src="images/search-interface-symbol.png"> <a href="#">     Search</a>        </li>
+                    <li> <img src="images/user.png"> <a href="signin.html">     Sign in</a>        </li>
+                    
+                </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="awab">
+            <div class="awab1">
+                <h1>AWARDS</h1>
+            </div>
+            <div class="awab1">
+                <img src="images/awards.jpeg" alt="">
+            </div>
+            
+            
+        </div>
+        <div class="awa">
+            <div class="title">
+                <h1 style="color: white;  padding-left: 50px; ">ICC MEN’S ODI CRICKETER OF THE YEAR 2023</h1>
+            </div>
+           
+            <div class="award">
+                <div class="award2">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Virat <strong>KOHLI</strong> </h1>
+                   
+                   
+                    <img src="images/india flag.jpg">
+                    <div class="score">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">1</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">125</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">2</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="awa">
+            <div class="title">
+                <h1 style="color: white;  padding-left: 50px; ">ICC MEN’S TEST CRICKETER OF THE YEAR 2023</h1>
+            </div>
+           
+            <div class="award">
+                <div class="award1">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Usman <strong>KHAWAJA</strong> </h1>
+                   
+                   
+                    <img src="images/aus flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">0</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">1210</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">7</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="awa">
+            <div class="title">
+                <h1 style="color: white;  padding-left: 50px; ">ICC MEN’S T20I CRICKETER OF THE YEAR 2023</h1>
+            </div>
+           
+            <div class="award">
+                <div class="award3">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Suryakumar <strong>YADAV</strong> </h1>
+                   
+                   
+                    <img src="images/india flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">0</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">730</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">40</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="awa1">
+            <div class="title">
+                <h1 style="color: white; padding-left: 50px; ">TEST CRICKETER OF THE YEAR 2023</h1>
+            </div>
+           
+            <div class="awardz">
+                <div class="award4">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Ravichandran <strong>ASHWIN</strong> </h1>
+                   
+                   
+                    <img src="images/india flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">41</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">150</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">1</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                    
+                </div>
+                <div class="award5">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Travis <strong>HEAD</strong> </h1>
+                   
+                   
+                    <img src="images/aus flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">4</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">919</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">2</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                    
+                </div>
+                <div class="award6">
+                    <h1 style="font-size: 25px; padding-top: 5px;">Usman <strong>KHAWAJA</strong> </h1>
+                   
+                   
+                    <img src="images/aus flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">0</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">1210</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">7</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                   
+                </div>
+                <div class="award7">
+                    <h1 style="font-size: 25px; padding-top: 15px;">Joe <strong>ROOT</strong> </h1>
+                   
+                   
+                    <img src="images/england flag.jpg">
+                    <div class="score1">
+                       <table>
+                        <tr >
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">8</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">787</td>
+                            <td style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">17</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">WICKTETS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">RUNS</td>
+                            <td style="font-size: 15px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CATCHES</td>
+                        </tr>
+                       </table>
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+
+
+        <div class="spon">
+            <div class="spons">
+                <div class="spons1">
+                    <img src="images/emirates.png">
+    
+                </div>
+                <div class="spons1">
+                    <img src="images/aromo.png">
+                </div>
+    
+                <div class="spons1">
+                    <img src="images/dpworld.png">
+                </div>
+           
+    
+            </div>
+            <p style="color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-left: 45%;">PREMIRE PARTNERS</p>
+            <hr style="color: rgb(160, 151, 151); width: 30%;">
+
+            <div class="cola">
+                <div class="cola1">
+                    <img src="images/cocacola.png">
+    
+                </div>
+                <div class="cola1">
+                    <img src="images/indus.png">
+                </div>
+            </div>
+            <p style="color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-left: 45%;">GLOBAL PARTNERS</p>
+            <hr style="color: rgb(160, 151, 151); width: 30%;">
+
+            <div class="royal">
+                <div class="royal1">
+                    <img src="images/Royal_Stag_200mm_wkcdaf.png">
+    
+                </div>
+                <div class="royal1">
+                    <img src="images/FanCraze Logo - Sponsor Block - April 24.png">
+                </div>
+    
+                <div class="royal1">
+                    <img src="images/near.png">
+                </div>
+                <div class="royal1">
+                    <img src="images/c4good.png">
+                </div>
+            </div>
+            <p style="color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-left: 45%;">OFFICIAL SUPPORTERS</p>
+           
+            <div class="social">
+                <div class="social1">
+                   <img src="images/fb1.png" alt="">
+    
+                </div>
+                <div class="social1">
+                    <img src="images/insta.png">
+                </div>
+    
+                <div class="social1">
+                    <img src="images/yt.png">
+                </div>
+                <div class="social1">
+                    <img src="images/x.jpeg">
+                </div>
+            </div>
+            <hr style="color: rgb(160, 151, 151); width: 90%;">
+            
+
+            <div class="icc">
+                <div class="icc1">
+                    <img src="images/icc blue.svg">
+                   
+    
+                </div>
+            </div>
+                <div class="ic">
+                    <div class="ic1">
+                        
+                        <p style="color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 15px; margin-left: 45%;">Copyright 2024 ICC. All rights reserved.</p>
+        
+                    </div>
+                </div>
+                
+        </div>
+       
+        
+    </body>
+</html>

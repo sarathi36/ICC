@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+        .jersey{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .jer{
+            width: 20%;
+            background-color: #ddd;
+            height: 300px;
+            padding-top: 100px;
+            margin-bottom: auto;
+            display: block;
+        }
+        h1{
+            text-align: center;
+            font-size: 20px;
+        }
+        .jer1{
+            width: 75%;
+            
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .jer2{
+            background-color: #ddd;
+            border-radius: 25px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        .poster{
+            width: 25%;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            padding-bottom: 25px;
+
+        }
+        img{
+            height: 400px;
+            border: 2px solid gray;
+        }
+        p{
+            display: block;
+            padding-right: 5px;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input{
+            text-align: center;
+            margin: auto;
+            width: 50px;
+            padding: 10px;
+        }
+        #inp{
+            display: flex;
+            width: 75%;
+            margin: auto;
+        }
+
+        @media screen and (max-width:500px) {
+            .jersey {
+                width: 100%;
+                margin: auto;
+              
+            }
+            .poster {
+                width: 100%;
+                margin: auto;
+                display: block;
+            }
+            .poster p{
+                font-size: 20px;
+            }
+            input{
+                width: 15px;
+
+            }
+        }
+    </style>
+
+    <body>
+        <div class="jersey">
+         <div class="jer">
+            <div>
+                <h1 style="float: lef;;">Price</h1>
+            </div>
+            
+            <div>
+                <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">Enter Price Range</h1>
+            </div>
+            <div id="inp">
+                <input style="padding-right: 10px;" type="text" placeholder="Max">
+                <input type="text" name="" id="" placeholder="Min">
+
+            </div>
+           
+            
+         </div>
+         <div class="jer1">
+            <div class="jer2">
+                <h1 style="padding-left: 30px; margin-right: auto;">Jerseys</h1>
+                
+            </div>
+           
+            <div class="poster">
+                <img src="images/jersey1.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Addidas India T20 Fan Jersey</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹999</p>
+            </div>
+            <div class="poster">
+                <img src="images/jersey2.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Customized Addidas India T20 ...</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹999</p>
+            </div>
+            <div class="poster">
+                <img src="images/jer3.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Addidas India Cricket T20 ...</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹5,999</p>
+            </div>
+            <div class="poster">
+                <img src="images/jer4.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Addidas Cricket ODI Replica ...</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹2,999</p>
+            </div>
+            <div class="poster">
+                <img src="images/jer5.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Addidas International Cricket Jersey</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹4,999</p>
+            </div>
+            <div class="poster">
+                <img src="images/jer7.webp" style="width: 100%;" alt="">
+                <p style="display: block;">Addidas Cricket ODI Player Jersey</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; margin-top: auto;">₹4,999</p>
+            </div>
+            
+         </div>
+        </div>
+    </body>
+</html>

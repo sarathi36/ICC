@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+  .news{
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid;
+    box-shadow:  3px ;
+    
+  }
+  .news h1{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+  }
+  #team{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #team p{
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a{
+    text-decoration: none;
+    margin: auto;
+  }
+
+  @media screen and (max-width:500px) {
+    .news {
+        width: 100%;
+        margin: auto;
+    }
+    #team{
+        width: 100%;
+        margin: auto;
+    }
+    #team p{
+        font-size: 15px;
+        margin: auto;
+    }
+    #team a{
+        font-size: 15px;
+        margin: auto;
+    }
+  }
+</style>
+
+<body>
+    
+    <div class="top">
+        <div class="logo">
+            <a href="index.html"><img src="images/icc-white-logo.svg"></a>
+        </div>
+        <div class="head">
+            <ul>
+                <li style="font-size: 20px;"><a href="#"> Matches </a></li>
+                <li style="font-size: 20px;"><a href="shop.html"> Shop </a></li>
+                <li style="font-size: 20px;"> <a href="table.html"> Ranking </a></li>
+                <li style="font-size: 20px;"><a href="news.html"> News </a></li>
+                <li style="font-size: 20px;"><a href="team.html"> Teams </a></li>
+                <li style="font-size: 20px;"><a href="awards.html"> Awards </a></li>
+                <li style="font-size: 20px;"><a href="trophy.html"> Trophys </a></li>
+            </ul>
+        </div>
+        <div class="head1">
+            <ul>
+                <li> <img src="images/search-interface-symbol.png"> <a href="#">     Search</a>        </li>
+                <li> <img src="images/user.png"> <a href="signin.html">     Sign in</a>        </li>
+                
+            </ul>
+
+        </div>
+        
+    </div>
+
+    
+    <div class="news">
+        <h1>NEWS</h1>
+        <div id="team">
+            <p>Overview</p>
+           <a href="cwcnews.html" target="iframe_a"><p>Cricket World Cup</p> </a> 
+            <a href="wtnews.html" target="iframe_a"> <p>World Test Championship</p> </a> 
+        </div>
+    </div>
+
+    <div>
+        <iframe src="" name="iframe_a" width="100%" height="1500px" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
